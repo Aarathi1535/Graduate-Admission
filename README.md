@@ -1,5 +1,5 @@
 # Graduate-Admission
-In this Machine Learning application, the user can predict his/her admission in graduation providing their respective GRE Score, TOEFL Score,University Rating, SOP, LOR,	CGPA, and Research(if any).
+In this Machine Learning application, the user can predict his/her admission in graduation providing their respective GRE Score, TOEFL Score,University Rating, SOP, LOR, CGPA, and Research(if any).
 The procedure of this model begins with
         - Collecting the dataset
         - Reading the dataset i.e csv file
