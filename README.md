@@ -7,3 +7,5 @@ The procedure of this model begins with
 - Splitting the data into training and testing sets
 - Creating a Logistic Regression model and fitting the data into it
 - Lastly, depicting score of the model and plotting the confusion matrix to find anomalies
+
+Check out this model deployed by streamlit here : https://graduate-admission-predictor-byaarathi1535.streamlit.app/
