@@ -24,7 +24,7 @@ def set_png_as_page_bg(png_file):
     
     st.markdown(page_bg_img, unsafe_allow_html=True)
     return
-set_png_as_page_bg("C:\Users\hp\Downloads\gap.jpeg")
+set_png_as_page_bg("C:/Users/hp/Downloads/gap.jpeg")
 df = pd.read_csv("Admission_Predict.csv")
 df1 = df.drop(['Serial No.'],axis=1)
 x = df.iloc[:,[1,2,3,4,5,6,7]].values
