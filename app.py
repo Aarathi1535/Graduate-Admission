@@ -4,16 +4,15 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-st.markdown(
-    """
-    <style>
-    .reportview-container {
-        background: url(https://cdn5.vectorstock.com/i/1000x1000/59/94/graphic-cartoon-character-academic-process-vector-36665994.jpg);
-    }
-   </style>
-    """,
-    unsafe_allow_html=True
-)
+page_bg_img = '''
+<style>
+body {
+background-image: url("https://cdn5.vectorstock.com/i/1000x1000/59/94/graphic-cartoon-character-academic-process-vector-36665994.jpg");
+background-size: cover;
+}
+</style>
+'''
+st.markdown(page_bg_img, unsafe_allow_html=True)
 df = pd.read_csv("Admission_Predict.csv")
 df1 = df.drop(['Serial No.'],axis=1)
 x = df.iloc[:,[1,2,3,4,5,6,7]].values
