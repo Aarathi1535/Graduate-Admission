@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-df = pd.read_csv("C:/Users/hp/Downloads/Admission_Predict.csv")
+df = pd.read_csv("https://github.com/Aarathi1535/Graduate-Admission/blob/main/Admission_Predict.csv")
 df1 = df.drop(['Serial No.'],axis=1)
 x = df.iloc[:,[1,2,3,4,5,6,7]].values
 y = df.iloc[:,8].values
