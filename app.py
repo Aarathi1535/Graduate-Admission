@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 df = pd.read_csv("Admission_Predict.csv")
@@ -10,7 +10,7 @@ x = df.iloc[:,[1,2,3,4,5,6,7]].values
 y = df.iloc[:,8].values
 x_d = pd.DataFrame(x,columns = ['GRE Score','TOEFL Score','University Rating','SOP','LOR','CGPA','Research'])
 x_train, x_test, y_train, y_test = train_test_split(x,y,test_size=0.2,random_state=0)
-model = SVC()
+model = LogisticRegression()
 sc = StandardScaler()
 x_train = sc.fit_transform(x_train)
 x_test = sc.fit_transform(x_test)
