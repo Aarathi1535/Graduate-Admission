@@ -14,17 +14,8 @@ model = SVC()
 sc = StandardScaler()
 x_train = sc.fit_transform(x_train)
 x_test = sc.fit_transform(x_test)
-y_train1 , y_test1 = [],[]
-for i in y_train:
-    if i > 0.75:
-        y_train1.append(1)
-    else:
-        y_train1.append(0)
-for i in y_test:
-    if i > 0.75:
-        y_test1.append(1)
-    else:
-        y_test1.append(0)
+y_train1 = [1 if x > 0.75 else 0 for x in y_train]
+y_test1 = [1 if x > 0.75 else 0 for x in y_test]
 model.fit(x_train,y_train1)
 st.title("Graduation Admission Predictor")
 st.markdown("Provide the necessary details below to predict if you can get the admission.")
