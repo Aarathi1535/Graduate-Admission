@@ -8,7 +8,7 @@ st.markdown(
     """
     <style>
     .reportview-container {
-        background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.graduhat.com%2F&psig=AOvVaw12kpAF0SkQW3pl6KSS6vOn&ust=1709980821099000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIDp-Y695IQDFQAAAAAdAAAAABA0");
+        background: url("https://cdn5.vectorstock.com/i/1000x1000/59/94/graphic-cartoon-character-academic-process-vector-36665994.jpg");
     }
    </style>
     """,
