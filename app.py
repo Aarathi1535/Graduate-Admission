@@ -18,6 +18,9 @@ y_train1 = [1 if x > 0.75 else 0 for x in y_train]
 y_test1 = [1 if x > 0.75 else 0 for x in y_test]
 model.fit(x_train,y_train1)
 st.title("Graduation Admission Predictor")
+st.markdown("
+Graduate admissions hinge significantly on GRE and TOEFL scores, serving as key metrics for evaluating candidates' academic aptitude and English proficiency, respectively. The GRE assesses fundamental skills essential for advanced studies, offering a standardized benchmark for comparison. Meanwhile, TOEFL measures English language proficiency crucial for effective communication in academic settings. However, while scores provide valuable insights, they aren't sole determinants. Holistic evaluations, considering academic transcripts, recommendations, and personal statements, ensure a comprehensive assessment. Challenges exist, including concerns over test bias and limited scope. Yet, by supplementing scores with qualitative measures, institutions strive for inclusivity, identifying diverse talents poised to contribute meaningfully to academia.")
+st.markdown()
 st.markdown("Provide the necessary details below to predict if you can get the admission.")
 GREScore = st.text_input("Enter your GRE Score:")
 TOEFLScore = st.text_input("Enter your TOEFL Score:")
