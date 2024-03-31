@@ -9,4 +9,3 @@ The procedure of this model begins with
 - Lastly, depicting score of the model and plotting the confusion matrix to find anomalies
 
 Check out this model deployed by streamlit here : https://graduate-admission-predictor-byaarathi1535.streamlit.app/
-![Test Image 1]("img.png")
