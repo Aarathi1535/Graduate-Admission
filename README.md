@@ -10,5 +10,23 @@ The procedure of this model begins with
 
 Check out this model deployed by streamlit here : https://graduate-admission-predictor-byaarathi1535.streamlit.app/
 
+Relation between GRE Score and Chance of Admit:-
+![1-Image](ii.png)
+
+Relation between TOFEL Score and Chance of Admit:-
+![2-Image](iii.png)
+
+Relation between University Rating and Chance of Admit:-
+![3-Image](iv.png)
+
+Relation between SOP and Chance of Admit:-
+![4-Image](v.png)
+
+Relation between LOR and Chance of Admit:-
+![5-Image](lor.png)
+
 Relation between CGPA and Chance of Admit:-
-![Relation between CGPA and Chance of Admit](i.png)
+![6-Image](i.png)
+
+Relation between Research and Chance of Admit:-
+![7-Image](vii.png)
