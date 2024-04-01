@@ -12,6 +12,7 @@ Technologies Used:
 - Python : Machine Learning algorithm i.e Logistic Regression
 - Streamlit : To develop the user interface and deploy the model into web-app
 - Power BI : To demonstrate how various attributes are affecting the chance of admission of a student in graduation
+  
 Check out this model deployed by streamlit here : https://graduate-admission-predictor-byaarathi1535.streamlit.app/
 
 Relation between GRE Score and Chance of Admit:-
