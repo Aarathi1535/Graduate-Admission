@@ -60,3 +60,12 @@ Curious about how different factors influence admission chances? We’ve got you
    ```bash
    git clone https://github.com/Aarathi1535/Graduate-Admission.git
    ```
+2. Install required libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the app locally:
+
+```bash
+streamlit run app.py
+```
