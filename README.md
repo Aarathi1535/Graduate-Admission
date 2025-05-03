@@ -16,11 +16,15 @@ This web app uses a **Logistic Regression** model trained on real data to predic
 4. **Model Evaluation**: Once trained, we evaluate the model's performance and check for any misclassifications using a confusion matrix. 🔍
 5. **Prediction Time**: Once everything is set up, we deploy the model on a **Streamlit** web app, where you can enter your details and get your admission chances! 🎯
 
+
 ## 🔧 **Technologies Used**:
-- **Python**: The heart of the machine learning magic—using **Logistic Regression** to predict your admission chances. 💻
-- **Streamlit**: A fast and interactive web framework to create and deploy the model interface. 🚀
-- **Power BI**: Visualizations to show how your scores, SOP, and other attributes affect your chances of admission. 📊
-- **Pandas & Scikit-learn**: For data handling, model training, and evaluation. 🔧
+| Technology      | Purpose                                           |
+|-----------------|---------------------------------------------------|
+| **Python**      | Machine learning with **Logistic Regression** for predicting admission chances. 💻 |
+| **Streamlit**   | Fast and interactive framework to create and deploy the model interface. 🚀 |
+| **Power BI**    | Visualizations to show how your scores, SOP, and other attributes affect your chances of admission. 📊 |
+| **Pandas**      | Data handling, manipulation, and preprocessing. 📑 |
+| **Scikit-learn**| Model training, evaluation, and metrics. 🔧 |
 
 ## 🎉 **How to Use**:
 1. **Check it out online**: Visit our [Graduate Admission Predictor Web App](https://graduate-admission-predictor-byaarathi1535.streamlit.app/) and see the magic happen!
