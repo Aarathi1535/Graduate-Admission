@@ -66,6 +66,6 @@ Curious about how different factors influence admission chances? We’ve got you
    ```
 3. Run the app locally:
 
-```bash
-streamlit run app.py
-```
+  ```bash
+  streamlit run app.py
+  ```
